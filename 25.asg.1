@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	char str[30];
+	int count,i;
+	gets(str);
+	for(i=0;str[i]!='\0';i++)
+	{
+		if(str[i]==' ')
+		{
+			count++;
+		}
+	}
+	printf("no of words:%d",count);
+	return 0;
+}
