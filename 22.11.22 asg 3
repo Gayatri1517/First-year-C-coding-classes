@@ -1,0 +1,7 @@
+a=int(input('enter a value'))#10
+b=int(input('enter b value'))#15
+a=a+b  #25
+b=a-b   #10
+a=a-b  #15
+print('a value','is',a,end=" ")
+print('b value','is',b)
