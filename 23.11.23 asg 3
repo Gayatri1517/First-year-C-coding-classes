@@ -1,0 +1,7 @@
+
+a=int(input('enter a value'))
+n=2
+if a%n==0:
+    print('given no',a,' is even')
+else:
+    print('given no',a,' is odd')
