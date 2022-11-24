@@ -1,0 +1,12 @@
+1)a=int(input('enter a digit'))
+b=int(input('enter b digit'))
+add=a+b
+sub=a-b
+mul=a*b
+div=a/b
+modu=a%b
+print('addititon is:',add)
+print('subtraction is:',sub)
+print('multipication is:',mul)
+print('divison is:',div)
+print('module divison is:',modu)
