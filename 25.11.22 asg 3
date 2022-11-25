@@ -1,0 +1,6 @@
+l=[1,2,3,4,5]
+i=3
+if i in l:
+    print('element is found',i)
+else:
+    print('element is not found',i)
