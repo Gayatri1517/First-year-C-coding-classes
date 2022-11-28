@@ -1,0 +1,6 @@
+n=6359
+i=int(input('enter pin digit'))
+if i==n:
+    print('continue transactions')
+else:
+    print('incorrect pin number','please try again')'''
