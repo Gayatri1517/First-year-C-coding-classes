@@ -1,0 +1,9 @@
+sno=int(input('enter student number'))
+sname=input('enter student name')
+s1=40
+s2=38
+s3=37
+if s1 and s2 and s3 >=35:
+    print('student',sname,'is passed')
+else:
+    print('student',sname,'is failed')
