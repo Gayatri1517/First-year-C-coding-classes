@@ -1,0 +1,23 @@
+cphno=int(input('enter customer phone number:'))
+cname=input('enter customer name:')
+caddr=input('enter customer address:')
+lu=int(input('enter last month units:'))
+pu=int(input('enter present month units:'))
+tu=pu-lu
+if tu<=3:
+    bill=(tu*1.95)
+elif tu>30 and tu<=75:
+    bill=(tu*3)
+elif tu>75 and tu<=125:
+    bill=(tu*4.5)
+elif tu>125 and tu<=225:
+    bill=(tu*8.75)
+elif tu>225 and tu<=400:
+    bill=(tu*9.75)
+else:
+    bill=(tu*10.5)
+print('customer phone number:',cphno)
+print('customer name:',cname)
+print('customer address:',caddr)
+print('****************************')
+print('bill:',bill)
