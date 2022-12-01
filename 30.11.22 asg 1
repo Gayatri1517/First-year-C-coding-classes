@@ -1,0 +1,31 @@
+1.rice=180
+sugar=250
+mdal=150
+gdal=120
+atta=140
+cphno=int(input('enter customer phone number:'))
+cname=input('enter customer name:')
+caddr=input('enter customer address:')
+rq=int(input('enter rice quantity:'))
+sq=int(input('enter sugar quantity:'))
+mq=int(input('enter moong dal quantity:'))
+gq=int(input('enter gram dal quantity:'))
+aq=int(input('enter atta quantity:'))
+bill=(rq*rice)+(sq*sugar)+(mq*mdal)+(gq*gdal)+(aq*atta)
+if bill>3000:
+    tax=bill*5/100
+elif bill>2000:
+    tax=bill*7/100
+elif bill>1000:
+    tax=bill*10/100
+elif bill>500:
+    tax=bill*15/100
+else:
+    tax=100
+bill=tax+bill
+print('customer phone number:',cphno)
+print('customer name:',cname)
+print('customer address:',caddr)
+print('tax:',tax)
+print('***********************************')
+print('bill:',bill)
