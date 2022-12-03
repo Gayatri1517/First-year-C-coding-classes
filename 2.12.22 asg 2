@@ -1,0 +1,9 @@
+def eligible():
+    if age>=18 and reg=='India':
+        print('ELIGIBLE')
+    else:
+        print('INELIGIBLE')
+name=input('enter name:')
+age=int(input('enter age:'))
+reg=input('enter region:')
+eligible()
