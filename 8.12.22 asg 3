@@ -1,0 +1,14 @@
+s = int(input("Please enter the number of rows : "))
+# for Printing Downward half - Pyramid 
+for i in range(s + 1, 0, -1):
+    # nested reverse loop
+    for j in range(0, i - 1):
+        # for printing  star pattern
+        print("*", end=' ')
+    print(" ")
+    OUTPUT:
+    Please enter the number of rows : 4
+* * * *  
+* * *  
+* *  
+*  
