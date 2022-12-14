@@ -1,0 +1,8 @@
+n=int(input ("enter how many states:"))
+ap=[]
+for i in range(1,n+1):
+    x=input ()
+    ap.append(x)
+ap.sort()
+for i in ap:
+    print(i)
