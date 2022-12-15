@@ -1,0 +1,26 @@
+l=[ ]
+n=int(input('enter how many numbers'))
+for i in range(1,n+1):
+    c=input('enter the values')
+    l.append(c)
+print('Original list elements',l)
+t=[ ]
+for i in range(0,len(l)):
+    for j in range(0,len(l)):
+        if l[i]>l[j]:
+            t=l[i]
+            l[i]=l[j]
+            l[j]=t
+print('Descending order elements',l)
+OUTPUT:
+enter how many numbers 8
+enter the values3
+enter the values68
+enter the values54
+enter the values12
+enter the values78
+enter the values23
+enter the values45
+enter the values889
+Original list elements ['3', '68', '54', '12', '78', '23', '45', '889']
+Descending order elements ['889', '78', '68', '54', '45','23','12','3']
