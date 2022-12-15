@@ -1,0 +1,31 @@
+a='this is a string'
+a=a.split(" ")
+a="-".join(a)
+print(a)
+if name=='main':
+    line=input()
+    result=split_and_join(line)
+    print(result)
+l=[]
+n=int(input('enter the how many numbers'))
+for i in range(1,n+1):
+    m=input('enter values')
+    l.append(m)
+max1=l[0]
+min1=l[0]
+for j in range(1,n):
+    if l[j]>max1:
+        max1=l[j]
+    if l[j]<min1:
+        min1=l[j]
+print("minimum element is",min1)
+print("maximum element is",max1)
+OUTPUT:
+enter the how many numbers 5
+enter values 12
+enter values 4
+enter values3
+enter values 42
+enter values 1
+minimum element is  1
+maximum element is 3
