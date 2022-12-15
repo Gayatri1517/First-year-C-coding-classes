@@ -1,0 +1,21 @@
+n=int(input('enter the numbers in list'))
+l=[]
+for i in range(1,n+1):
+    c=input('enter the values')
+    l.append(c)
+t=[]
+for i in l:
+    if i not in t:
+        print('duplicate elements found')
+        break
+    else:
+        print('no')
+        break
+Output:
+    enter the numbers in list5
+enter the values 2
+enter the values 5
+enter the values3
+enter the values2
+enter the values6
+duplicate elements found
