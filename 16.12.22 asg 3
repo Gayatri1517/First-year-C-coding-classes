@@ -1,0 +1,6 @@
+s="Hello123ABC@"
+count=0
+for i in s:      
+    if(i.isalpha()):
+        count=count+1   
+print("Number of alphabet=",count)
