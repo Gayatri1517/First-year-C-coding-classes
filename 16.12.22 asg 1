@@ -1,0 +1,5 @@
+n=input ("enter string:")
+print("number of characters:",len(n))
+print ("lower=",n.lower())
+print("upper=",n.upper())
+print (n.swapcase())
