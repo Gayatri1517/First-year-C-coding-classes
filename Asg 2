@@ -1,0 +1,13 @@
+n=int(input())
+num=int(input())
+lar=num
+small=num
+i=1
+while(i<n):
+    num=int(input())
+    if(num>lar):
+        lar=num
+    elif(num<small):
+        small=num
+    i=i+1
+print(lar-small)
