@@ -1,0 +1,7 @@
+import math
+n=int(input())
+m=math.sqrt(n)
+if m>10:
+    print("Hello")
+else:
+    print("Hi")
