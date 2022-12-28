@@ -1,0 +1,8 @@
+l=list(map(int,input().split()))
+x=int(input())
+indexes = [] 
+for i in range(0, len(l)) : 
+    if l[i] == x : 
+        i=indexes.append(i)
+result = ', '.join(str(item) for item in indexes)
+print(result)
